@@ -1,4 +1,4 @@
-void population() {
+void Population() {
   titleX = width*1/40;
   titleY = height*1/20;
   titleWidth = width*3/5;
@@ -33,14 +33,6 @@ void population() {
   imageY = height*3/5;
   imageWidth = (width*imageWidthRatio)/3;
   imageHeight = (height*imageHeightRatio)/3;
-  /*
-  mouthX1 = leftEyeX;
-   mouthY1 = height*3/4;
-   mouthX2 = rightEyeX;
-   mouthY2 = mouthY1;
-   mouthThick = 25;
-   */
-  //
   buttonX = width*1/40;
   buttonY = height*1/5;
   button2X = buttonX;
@@ -49,4 +41,4 @@ void population() {
   button3Y = height*1/2;
   buttonWidth = height*1/4;
   buttonHeight = height*1/10;
-} //End populatiion
+} //End population)

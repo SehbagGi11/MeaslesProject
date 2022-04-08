@@ -17,34 +17,19 @@ int titleX, titleY, titleWidth, titleHeight;
 void setup() {
   fullScreen(); 
   //displayWidth & displayHeight //General Geometry: landscape, potrait, or square
-  population();
-  title();
-  faceShape();
-  backgroundImage();
+  Population();
+  Face();
 }//End setup
 //
 void draw() {
-  //measlesBox(); //code to spawn measles inside the square
-  button1();
-  button1text();
-  button2();
-  button2text();
-  button3();
-  button3text();
+  MeaslesBox(); //code to spawn measles inside the square
   Measles();
-  leftEye();
-  rightEye();
-  Reset();
+  LeftEye();
+  RightEye();
+  Nose();
 }//End draw
 //
-void keyPressed() {
-  if (key == 'q' || key == 'Q') exit();
-}//End keyPressed
+void keyPressed () {}// End keyPressed
 //
-void mousePressed() {
-  eyesOn = false;
-  measlesOn = false;
-  if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight) measlesOn = true;
-  if ( mouseX>button2X && mouseX<button2X+buttonWidth && mouseY>button2Y && mouseY<button2Y+buttonHeight) measlesOn = false;
-  if ( mouseX>button3X && mouseX<button3X+buttonWidth && mouseY>button3Y && mouseY<button3Y+buttonHeight) exit();
-}//End mousePressed
+void mousePressed () {}// End mousePressed
+//

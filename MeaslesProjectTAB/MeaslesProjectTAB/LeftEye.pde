@@ -1,4 +1,4 @@
-void leftEye() {
+void LeftEye() {
   //Left Eye
   fill(blue);
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
@@ -12,7 +12,5 @@ void leftEye() {
   fill(white);
   fill(black);
   ellipse(rightEyeX, rightEyeY, eye2Diameter, eye2Diameter);
-   fill(white);
-   }
-
-  
+  fill(white);
+}
