@@ -1,16 +1,29 @@
-void LeftEye() {
+//Global Variables
+float leftEyeX, leftEyeY;
+float rectLEX, rectLEY, rectLEWidth, rectLEHeight;
+float ileftEyeX, ileftEyeY;
+float pleftEyeX, pleftEyeY;
+//
+void leftEyeDraw() 
+{
   //Left Eye
-  fill(blue);
+  rectLEX = leftEyeX*6.1/8;
+  rectLEY = leftEyeY*1/2;
+  //rectLEWidth = eyeDiameter;
+  rectLEHeight = eyeDiameter;
+  //rect(rectLEX, rectLEY, rectLEWidth, rectLEHeight);
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
-  fill(white);
-  fill(black);
-  ellipse(leftEyeX, leftEyeY, eye2Diameter, eye2Diameter);
-  fill(white);
-  //Right Eye
-  fill(blue);
-  ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
-  fill(white);
-  fill(black);
-  ellipse(rightEyeX, rightEyeY, eye2Diameter, eye2Diameter);
-  fill(white);
-}
+  //
+  noStroke();
+  fill(iris);
+  ellipse(ileftEyeX, ileftEyeY, iDiameter, iDiameter);
+  stroke(reset);
+  fill(whiteReset);
+  //
+  noStroke();
+  fill(pupil);
+  ellipse(pleftEyeX, pleftEyeY, pDiameter, pDiameter);
+  stroke(reset);
+  fill(whiteReset);
+  //
+}//End leftEyeDraw

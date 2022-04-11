@@ -1,9 +1,11 @@
-void Nose () 
+//Global Variables
+float xNose1, yNose1, xNose2, yNose2, xNose3, yNose3;
+float NX, NY, NWidth, NHeight;
+//
+void noseDraw() 
 {
-//Nose
-  triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
+  //Nose
+  //rect(NX, NY, NWidth, NHeight);
+  triangle(xNose1, yNose1, xNose2, yNose2, xNose3, yNose3);
   //
-  //Mouth
-  image(pic, imageX, imageY, imageWidth, imageHeight);
-  //strokeCap; //Default ROUND
-}
+}//End noseDraw
