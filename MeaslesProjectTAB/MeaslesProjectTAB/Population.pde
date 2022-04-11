@@ -44,12 +44,12 @@ void population()
   pupil=#000000;
   hatColor=#ED7300;
   whiteReset=#FFFFFF;
-  lips = loadImage("5b135831a2c9179fd8d44131a4dd7e28.png");
+  lips = loadImage("images.jpg");
   rectXLips = MX; 
   rectYLips = MY;
   rectWidthLips = MWidth;
   rectHeightLips = MHeight;
-  backyground = loadImage("wp5495357.jpg");
+  backyground = loadImage("png-transparent-green-leaf-frame-wood-background-green-leaves-frame-board.png");
   rectXBack = rectFaceX; 
   rectYBack = rectFaceY; 
   rectWidthBack = rectFaceWidth; 
