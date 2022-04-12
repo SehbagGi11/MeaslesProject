@@ -19,19 +19,27 @@ void setup()
   displaySetup();
   population();
   faceSetup();
+  //displayButtonOrientation();
+  //buttonPopulation();
   hat();
 }//End setup
 //
-void draw() { 
+void draw() 
+{ 
   leftEyeDraw();
   rightEyeDraw();
   noseDraw();
   mouthDraw();
   measleDraw();
+  //quitButtonDraw();
 }//End setup
 //
-void keyPressed() {
+void keyPressed() 
+{
+  //quitButtonkeyPressed();
 }//End setup
 //
-void mousePressed() {
+void mousePressed() 
+{
+  //quitButtonmousePressed();
 }//End setup

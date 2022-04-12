@@ -44,7 +44,7 @@ void population()
   pupil=#000000;
   hatColor=#ED7300;
   whiteReset=#FFFFFF;
-  lips = loadImage("images.jpg");
+  lips = loadImage("Anime-Mouth-PNG-Photo-Image.png");
   rectXLips = MX; 
   rectYLips = MY;
   rectWidthLips = MWidth;
@@ -54,5 +54,27 @@ void population()
   rectYBack = rectFaceY; 
   rectWidthBack = rectFaceWidth; 
   rectHeightBack = rectFaceHeight;
+  hat = loadImage("Topper-Hat-PNG-Image.png");
+  rectXHat = rectFaceX; 
+  rectYHat = rectFaceY; 
+  rectWidthHat = rectFaceWidth; 
+  rectHeightHat = rectFaceHeight*1/4;
+  hatX1 = rectXHat; 
+  hatY1 = rectYHat; 
+  hatX2 = rectWidthHat+rectXHat; 
+  hatY2 = appHeight;
   //
 }//End population
+//
+void buttonPopulation() 
+{
+  //Population
+  //Note: Variables similar to Face Rect() on Measles
+  /*
+  int smallerDisplayDimension = appHeight;
+  int canvasCenter = smallerDisplayDimension*1/2; //thinking experiment
+  */
+  int centerX = appWidth*1/2;
+  int centerY = appHeight*1/2;  
+  quitButtonSetupPopulation(centerX, centerY); //Passing Parameters
+}//End buttonPopulation
