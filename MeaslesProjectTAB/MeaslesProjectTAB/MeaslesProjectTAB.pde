@@ -19,8 +19,7 @@ void setup()
   displaySetup();
   population();
   faceSetup();
-  //displayButtonOrientation();
-  //buttonPopulation();
+  displayButtonOrientation();
   hat();
 }//End setup
 //
@@ -31,15 +30,15 @@ void draw()
   noseDraw();
   mouthDraw();
   measleDraw();
-  //quitButtonDraw();
+  quitButtonDraw();
 }//End setup
 //
 void keyPressed() 
 {
-  //quitButtonkeyPressed();
+  quitButtonkeyPressed();
 }//End setup
 //
 void mousePressed() 
 {
-  //quitButtonmousePressed();
+  quitButtonmousePressed();
 }//End setup
