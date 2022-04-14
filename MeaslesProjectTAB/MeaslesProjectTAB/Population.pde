@@ -40,7 +40,7 @@ void population()
   prightEyeY = leftEyeY;
   iDiameter = eyeDiameter*1/2;
   pDiameter = eyeDiameter*1/3;
-  iris=#D68F00;
+  iris=#18AA7D;
   pupil=#000000;
   hatColor=#ED7300;
   whiteReset=#FFFFFF;
@@ -76,6 +76,6 @@ void population()
   titleY = quitButtonY;
   titleWidth = quitButtonWidth;
   titleHeight = displayHeight*1/10;
-  titleFont = createFont("ArialMT-48", 55);
+  titleFont = createFont("Serif.bold-48", 55);
   //
 }//End population
